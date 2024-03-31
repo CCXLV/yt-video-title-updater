@@ -1,5 +1,5 @@
 # YouTube video title updater
-Automatically updates YouTube video title and puts number of views and likes in the title.
+Automatically updates YouTube video title and puts number of views and likes in it.
 
 ## Get credentials
 1 - Create a project with YouTube Data API V3 service, create OAuth 2.0 Client ID and get Client SECRET and ID [Google Cloud Console](https://console.cloud.google.com).                          
