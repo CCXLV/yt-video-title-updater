@@ -67,7 +67,8 @@ function updateVideo(videoData) {
     });
 }
 
-cron.schedule('*/45 * * * * *', async function() {
+// Makes API request every 5 minutes to not exceed the 10k quota limit
+cron.schedule('*/5 * * * *', async function() {
     console.log('Running function...');
     await main();
 });
